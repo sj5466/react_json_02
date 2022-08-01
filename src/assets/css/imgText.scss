@@ -1,0 +1,49 @@
+
+.imgText__inner {
+    overflow: hidden;
+ }
+ .imgText__inner > div {
+     width: 350px;
+     height: 360px ;
+     display: inline-block;
+     border-radius: 15px;
+     margin-left: 33px;
+ }
+ .imgText__inner .txt {
+     text-align: center;
+     height: 140px;
+     width: 100%;
+ }
+ .imgText__inner .txt h3 {
+     font-size: 40px;
+     padding-bottom: 8px;
+     font-weight: 500;
+ }
+ .imgText__inner .txt p {
+     color: #777;
+     font-size: 20px;
+     line-height: 1.5;
+     font-weight: 300;
+     word-break: keep-all;
+     padding-bottom: 50px;
+ }
+ .imgText__inner .txt .btn {
+     background: #000;
+     color: #fff;
+     display: inline-block;
+     padding: 10px 30px;
+     margin-top: 20px;
+ }
+ .img{
+     cursor: pointer;
+ }
+ .imgText__inner .img.bg1 {
+     background: url(../img/discount01.jpg) no-repeat;
+     margin-left: 0px;
+ }
+ .imgText__inner .img.bg2 {
+     background: url(../img/discount02.jpg) no-repeat;
+ }
+ .imgText__inner .img.bg3 {
+     background: url(../img/discount03.jpg) no-repeat;
+ }

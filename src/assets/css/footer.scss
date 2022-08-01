@@ -1,0 +1,76 @@
+#footerType{
+    background: #1e1e1e;
+}
+.footer__menu {
+    position: relative;
+    display: flex;
+    justify-content: space-between;
+}
+.footer__menu > div {
+    width:15%;
+    text-align: left;
+}
+.footer__menu > div:first-child{
+    width: 33%;
+    text-align: left;
+}
+.footer__menu > div:last-child{
+    width: 12%;
+    text-align: left;
+    padding-left: 55px;
+    box-sizing: border-box;
+}
+.footer__menu > div h3 {
+    font-size: 20px;
+    font-weight: 500;
+    margin-bottom: 20px;
+    color: #fff;
+}
+.footer__menu > div li a {
+    font-size: 14px;
+    line-height: 1.6;
+    color: rgb(246, 246, 246);
+    font-weight: 300;
+}
+.footer__right {
+    border-top: 1px solid #ccc;
+    margin-top: 50px;
+    padding-top: 50px;
+    color: #fff;
+}
+.icon {
+   position: absolute;
+   top: 20px;
+}
+.icon li{
+    cursor: pointer;
+    display: inline-block;
+    margin-right: 10px;
+    padding-top:100px;
+    padding-left: -100px;
+}
+.icon li:last-child{
+    margin-right: 0px;
+}
+.icon .i1{
+    width: 38px; height: 38px;
+    background: url(../img/icon.png)no-repeat center ;
+}
+.icon .i2{
+    width: 38px; height: 38px;
+    background: url(../img/icon.png) no-repeat center left ;
+}
+.icon .i3{
+    width: 38px; height: 38px;
+    background: url(../img/icon.png)no-repeat center right ;
+    
+}
+.ft_logo{margin-top: -17px;}
+.ft_logo .logo{
+    display: inline-block;
+    width: 267px; height: 37px;
+    background: url(../img/logo_01.png) no-repeat center;
+    background-size: 85%;
+   
+    margin-left: -23px;
+}

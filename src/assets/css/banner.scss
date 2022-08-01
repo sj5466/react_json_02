@@ -1,0 +1,44 @@
+.banner__inner {
+    position: relative;
+width: 1160px;
+margin: 0 auto;
+}
+.banner_left{
+    text-align: left;
+}
+.banner_left h3{
+    font-size: 50px;
+    font-weight: 500;
+    padding-bottom: 55px;
+}
+.banner_left h3 > span{
+    color: #F26A25;
+}
+.banner_left p{
+    font-size: 22px;
+    font-weight: 300;
+}
+.banner_left .btn{
+    margin-top: 44px;
+    width: 226px; 
+    height: 48px;
+    background: #F26A25;
+    display: block;
+    text-align: center;
+    font-size: 22px;
+    color: #fff;
+    font-weight: 500;
+    line-height: 48px;
+}
+
+.banner_img{
+    position: absolute;
+    right: 0px; top: 0px;
+    width: 524px; height: 280px;
+    background: url(../img/banner.jpg) no-repeat center;
+}
+.banner_img::after{
+    position: absolute; right: 0px; top: 0px;
+    width: 18px; height: 280px;
+    background-color: #fff;
+}
